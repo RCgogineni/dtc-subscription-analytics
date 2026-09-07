@@ -37,8 +37,7 @@ Built end-to-end: synthetic data generation → Snowflake data modeling (staging
 │   └── sanity_checks.sql               # Validation queries
 ├── data-generation/
 │   └── generate_data.py                # Synthetic dataset generator
-├── docs/
-│   └── methodology_and_findings_memo.md
+├── methodology_and_findings_memo.md
 └── README.md
 ```
 
@@ -50,7 +49,7 @@ Built end-to-end: synthetic data generation → Snowflake data modeling (staging
 - **Referral is the standout acquisition channel**: lowest churn (26.0%) and highest LTV (~$275) of any channel
 - **Retention follows a classic early-churn curve**: steepest drop-off in the first 1–3 months post-signup, then leveling off
 
-Full findings, methodology, and disclosed assumptions/limitations are in [`docs/methodology_and_findings_memo.md`](docs/methodology_and_findings_memo.md).
+Full findings, methodology, and disclosed assumptions/limitations are in [`methodology_and_findings_memo.md`](methodology_and_findings_memo.md).
 
 ## Data Note
 
